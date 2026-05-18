@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll global */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font default */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+}
+
+/* Floating WhatsApp pulse animation */
+@keyframes pulse-wa {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5); }
+  50%       { box-shadow: 0 0 0 12px rgba(34, 197, 94, 0); }
+}
+
+.wa-float {
+  animation: pulse-wa 2s infinite;
+}

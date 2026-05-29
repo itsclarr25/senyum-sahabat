@@ -23,6 +23,22 @@ const services = [
     title: 'Bongkar Pasang AC',
     desc: 'Jasa bongkar pasang AC pindahan dengan aman dan profesional.',
   },
+  {
+    title: "Instalasi Panel Listrik",
+    desc: "Pemasangan panel listrik untuk kebutuhan industri dan gedung dengan standar keamanan terbaik.",
+  },
+  {
+    title: "Perawatan Panel Listrik",
+    desc: "Pengecekan dan maintenance panel listrik secara berkala agar sistem tetap aman dan stabil.",
+  },
+  {
+    title: "Instalasi Listrik Gedung",
+    desc: "Pengerjaan instalasi listrik untuk rumah, kantor, dan bangunan komersial secara profesional.",
+  },
+  {
+    title: "Genset Automatic Transfer Switch",
+    desc: "Pemasangan sistem ATS genset agar perpindahan daya listrik berjalan otomatis dan aman.",
+  },
 ];
 
 export default function Services() {
@@ -31,7 +47,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-blue-900 mb-4">Layanan Kami</h3>
-          <p className="text-gray-600 text-lg">Solusi lengkap kebutuhan AC dan Refrigeration Anda</p>
+          <p className="text-gray-600 text-lg">Maintenance listrik dan AC</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

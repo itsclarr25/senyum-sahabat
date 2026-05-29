@@ -3,8 +3,9 @@ const WA_NUMBER = '6285113177360';
 const products = [
   'AC Split',
   'AC Cassette',
-  'Pipa AC',
-  'Freon Refrigerant',
+  'AC Central',
+  'AC Standing',
+  'Freon',
   'Bracket AC',
   'Peralatan AC',
 ];

@@ -1,4 +1,4 @@
-import about from'../assets/senyum-sahabat.jpeg'
+import about from'../assets/cvsenyumsahabat.jpg'
 export default function About() {
   return (
     <section id="about" className="py-24 bg-white">
@@ -28,7 +28,7 @@ export default function About() {
           {/* Stats */}
           <div className="grid grid-cols-2 gap-4 mt-8">
             <div className="bg-blue-50 p-5 rounded-2xl shadow-sm">
-              <h4 className="text-3xl font-bold text-red-600">100+</h4>
+              <h4 className="text-3xl font-bold text-red-600">100.000+</h4>
               <p>Project Selesai</p>
             </div>
             <div className="bg-red-50 p-5 rounded-2xl shadow-sm">

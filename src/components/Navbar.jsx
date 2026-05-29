@@ -1,4 +1,4 @@
-import logo from'../assets/senyum-sahabat.jpeg'
+import logo from'../assets/cvsenyumsahabat.jpg'
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
@@ -12,7 +12,7 @@ export default function Navbar() {
           />
           <div>
             <h1 className="font-bold text-xl text-blue-900">CV. Senyum Sahabat</h1>
-            <p className="text-sm text-gray-500">AC & Refrigeration Specialist</p>
+            <p className="text-sm text-gray-500">Mechanical & Electrical</p>
           </div>
         </div>
 

@@ -16,7 +16,7 @@ export default function About() {
         <div>
           <h3 className="text-4xl font-bold mb-6 text-blue-900">Tentang Kami</h3>
           <p className="text-lg text-gray-600 leading-relaxed mb-5">
-            CV. Senyum Sahabat adalah perusahaan yang bergerak di bidang AC & Refrigeration
+            CV. Senyum Sahabat adalah perusahaan yang bergerak di bidang electrical & mechanical
             dengan fokus pada pelayanan cepat, profesional, dan terpercaya.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed mb-5">

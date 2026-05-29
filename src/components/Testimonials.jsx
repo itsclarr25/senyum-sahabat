@@ -63,7 +63,7 @@ export default function Testimonials() {
             {[...testimonials, ...testimonials].map((item, index) => (
               <div
                 key={index}
-                className="min-w-[450px] bg-gray-100 p-8 rounded-3xl shadow-lg"
+                className="min-w-[350px] bg-gray-100 p-8 rounded-3xl shadow-lg"
               >
                 <p className="text-gray-600 italic mb-6 break-words whitespace-normal">
                   "{item.review}"

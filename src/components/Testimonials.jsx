@@ -65,7 +65,7 @@ export default function Testimonials() {
                 key={index}
                 className="min-w-[500px] bg-gray-100 p-8 rounded-3xl shadow-lg"
               >
-                <p className="text-gray-600 italic mb-6">
+                <p className="text-gray-600 italic mb-6 break-words whitespace-normal">
                   "{item.review}"
                 </p>
 

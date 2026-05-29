@@ -1,7 +1,7 @@
 const testimonials = [
   {
     name: 'Budi Santoso',
-    review: 'Pelayanan cepat dan teknisinya sangat profesional. AC kembali dingin maksimal.',
+    review: 'Pelayanan cepat dan teknisinya sangat profesional. AC kembali dingin.',
   },
   {
     name: 'Rina Amelia',
@@ -21,19 +21,19 @@ const testimonials = [
   },
   {
     name: 'Maya Putri',
-    review: 'Perawatan AC rutin untuk cafe kami hasilnya sangat memuaskan dan lebih hemat listrik.',
+    review: 'Perawatan AC rutin untuk cafe kami hasilnya sangat memuaskan.',
   },
   {
     name: 'Rizky Hidayat',
-    review: 'Instalasi listrik gedung dikerjakan cepat, rapi, dan sesuai standar keamanan.',
+    review: 'Instalasi listrik gedung cepat, rapi, dan sesuai standar keamanan.',
   },
   {
     name: 'Siti Rahma',
-    review: 'Admin responsif dan pengerjaan genset ATS berjalan sangat baik tanpa kendala.',
+    review: 'Admin responsif dan pengerjaan genset ATS berjalan baik tanpa kendala.',
   },
   {
     name: 'Yoga Pramana',
-    review: 'Harga transparan, pelayanan ramah, dan hasil pekerjaan sangat memuaskan.',
+    review: 'Harga transparan, pelayanan ramah, dan hasil sangat memuaskan.',
   },
   {
     name: 'Nanda Wijaya',
@@ -63,7 +63,7 @@ export default function Testimonials() {
             {[...testimonials, ...testimonials].map((item, index) => (
               <div
                 key={index}
-                className="min-w-[550px] bg-gray-100 p-8 rounded-3xl shadow-lg"
+                className="min-w-[500px] bg-gray-100 p-8 rounded-3xl shadow-lg"
               >
                 <p className="text-gray-600 italic mb-6">
                   "{item.review}"
